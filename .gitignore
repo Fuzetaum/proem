@@ -1,0 +1,4 @@
+.DS_Store
+
+# Output folder agents create and use to write runs manifests and tool outputs
+.runs/
