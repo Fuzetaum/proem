@@ -1,0 +1,6 @@
+parameter:
+  type: value
+role:
+  type: value
+rule:
+  type: section

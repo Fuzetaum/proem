@@ -23,4 +23,8 @@ Information #3
 
 `Information #1` is available to `Section`, `Subsection` and `Subsubsection`. `Information #2` is available to `Subsection` and `Subsubsection`. `Information #3` is only available to `Subsubsection`.
 
-The only exception is `# Rules` section: it contains all rules that the agent must follow **at all times** during that prompt's execution.
+The following sections are exceptions with information available **at all steps** during execution:
+
+* `# Inputs`: contains all mandatory input data callers can provide;
+* `# Intent`: contains a description of the role the agent must assume and the details driving its job;
+* `# Rules`: contains all rules that the agent must follow.
